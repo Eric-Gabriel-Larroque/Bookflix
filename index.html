@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width= device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/main.css" />
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="style/responsive.css">
+    <title>Netflix Masbah</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h2 class="logo"><span>Book</span>flix</h2>
+        <nav>
+          <a href="#">Início</a>
+          <a href="#classicos">Clássicos</a>
+          <a href="#populares">Populares</a>
+          <a href="#nacionais">Nacionais</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="livro-principal">
+        <div class="container">
+          <h3 class="titulo">Bookflix</h3>
+          <p class="descricao">
+            Acervo de livros dispostos em layout baseado na Netflix, um desafio da Digital Innovation One
+          </p>
+          <div class="botoes"></div>
+        </div>
+      </div>
+    </main>
+
+    <!--CLÁSSICOS-->
+    <div class="carrossel-livros">
+      <h5 id="classicos" class="container classificacao">Clássicos</h5>
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <img onclick="mudarLivro('divina_comedia')" class="box-livro"src="img/divina_comedia.jpg" alt="divina_comedia">
+        </div>
+        <div class="item">
+          <img onclick="mudarLivro('assassinato_no_expresso_do_oriente')" class="box-livro"src="img/assassinato_no_expresso_do_oriente.jpg" alt="assassinato_no_expresso_do_oriente">
+        </div>
+        <div class="item">
+          <img onclick="mudarLivro('assim_falou_zaratustra')" class="box-livro"src="img/assim_falou_zaratustra.jpg" alt="assim_falou_zaratustra">
+        </div>
+        <div class="item">
+          <img onclick="mudarLivro('fausto')" class="box-livro"src="img/fausto.jpg" alt="fausto">
+        </div>
+        <div class="item">
+          <img onclick="mudarLivro('os_irmaos_karamazov')" class="box-livro"src="img/os_irmaos_karamazov.jpg" alt="os_irmaos_karamazov">
+        </div>
+        <div class="item">
+          <img onclick="mudarLivro('iliada')" class="box-livro"src="img/iliada.jpg" alt="iliada">
+        </div>
+        <div class="item">
+          <img onclick="mudarLivro('o_gato_preto')" class="box-livro"src="img/o_gato_preto.jpg" alt="o_gato_preto">
+        </div>
+        <div class="item">
+          <img onclick="mudarLivro('dom_quixote')"src="img/dom_quixote.jpg" alt="dom_quixote" class="box-livro">
+        </div>
+        <div class="item">
+          <img onclick="mudarLivro('1984')"src="img/1984.jpg" alt="1984" class="box-livro">
+        </div>
+        <div class="item">
+          <img onclick="mudarLivro('laranja_mecanica')"src="img/laranja_mecanica.jpg" alt="laranja_mecanica" class="box-livro">
+        </div>
+      </div>
+      
+      
+      <!--POPULARES-->
+      <h3 id="populares" class="container classificacao">Populares</h3>
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <img onclick="mudarLivro('10_licoes_sobre_schopenhauer')" class="box-livro"src="img/10_licoes_sobre_schopenhauer.jpg" alt="10_licoes_sobre_schopenhauer">
+        </div>
+        <div class="item">
+          <img onclick="mudarLivro('12_licoes_da_historia')" class="box-livro"src="img/12_licoes_da_historia.jpg" alt="12_licoes_da_historia">
+        </div>
+        <div class="item">
+          <img onclick="mudarLivro('mitologia_nordica')"src="img/mitologia_nordica.jpg" alt="mitologia_nordica" class="box-livro">
+        </div>
+        <div class="item">
+          <img onclick="mudarLivro('fahrenheit_451')"src="img/fahrenheit_451.jpg" alt="fahrenheit_451" class="box-livro">
+        </div>
+        <div class="item">
+          <img onclick="mudarLivro('o_pequeno_principe')"src="img/o_pequeno_principe.jpg" alt="o_pequeno_principe" class="box-livro">
+        </div>
+        <div class="item">
+          <img onclick="mudarLivro('admiravel_mundo_novo')"src="img/admiravel_mundo_novo.jpg" alt="admiravel_mundo_novo" class="box-livro">
+        </div>
+        <div class="item">
+          <img onclick="mudarLivro('extraordinario')"src="img/extraordinario.jpg" alt="extraordinario" class="box-livro">
+        </div>
+        <div class="item">
+          <img onclick="mudarLivro('neuromancer')"src="img/neuromancer.jpg" alt="neuromancer" class="box-livro">
+        </div>
+      </div>
+
+      <!--NACIONAIS-->
+      <h5 id="nacionais" class="container classificacao">Nacionais</h3>
+      <div class="owl-carousel owl theme">
+        <div class="item">
+          <img onclick="mudarLivro('grande_sertao_veredas')"src="img/grande_sertao_veredas.jpg" alt="grande_sertao_veredas" class="box-livro">
+        </div>
+        <div class="item">
+          <img onclick="mudarLivro('bras_cubas')"src="img/bras_cubas.jpg" alt="bras_cubas" class="box-livro">
+        </div>
+        <div class="item">
+          <img onclick="mudarLivro('dom_casmurro')"src="img/dom_casmurro.jpg" alt="dom_casmurro" class="box-livro">
+        </div>
+        <div class="item">
+          <img onclick="mudarLivro('a_rosa_do_povo')"src="img/a_rosa_do_povo.jpg" alt="a_rosa_do_povo" class="box-livro">
+        </div>
+        <div class="item">
+          <img onclick="mudarLivro('macunaima')"src="img/macunaima.jpg" alt="macunaima" class="box-livro">
+        </div>
+        <div class="item">
+          <img onclick="mudarLivro('a_hora_da_estrela')"src="img/a_hora_da_estrela.jpg" alt="a_hora_da_estrela" class="box-livro">
+        </div>
+        <div class="item">
+          <img onclick="mudarLivro('a_invencao_de_orfeu')"src="img/a_invencao_de_orfeu.jpg" alt="a_invencao_de_orfeu" class="box-livro">
+        </div>
+        <div class="item">
+          <img onclick="mudarLivro('o_alquimista')"src="img/o_alquimista.jpg" alt="o_alquimista" class="box-livro">
+        </div>
+      </div>
+    </div>
+
+    
+    
+
+    <script src="https://kit.fontawesome.com/8c77e67797.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+    <script src="js/info.js"></script>
+    <script src="js/main.js"></script>
+
+
+  </body>
+</html>
