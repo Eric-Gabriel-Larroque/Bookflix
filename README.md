@@ -30,4 +30,4 @@ $git clone https://github.com/Eric-Gabriel-Larroque/Bookflix.git
 ## A Fazer:
 
 - Resolver o evento onlick do botão 'mais informações'
-- Automatizar a disposição das tags de acordo com su classificação
+- Automatizar a disposição das tags de acordo com sua classificação
